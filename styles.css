@@ -15,7 +15,7 @@ h1 {
 
 .shell {
     display: inline-block;
-    /*position: absolute;*/
+    position: absolute;
     background: red;
 }
 
