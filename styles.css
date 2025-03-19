@@ -1,0 +1,41 @@
+body {
+    margin: 0%;
+}
+h1 {
+    text-align: center;
+}
+
+.pokedex {
+    margin: 0%;
+    padding: auto;
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+}
+
+.shell {
+    display: inline-block;
+    /*position: absolute;*/
+    background: red;
+}
+
+.left {
+    margin-left: auto;
+    margin-right: 0px;
+    width: 400px;
+    height: 700px;
+}
+
+.right {
+    margin-left: 0px;
+    margin-right: auto;
+    background: black;
+    width: 400px;
+    height: 700px;
+}
+
+.screen {
+    width: 70%;
+    height: 40%;
+    background: green;
+}
