@@ -9,15 +9,27 @@ h1 {
 .shell {
     background: red;
     margin: auto;
+    position: relative;
     width: 400px;
     height: 700px;
+    border-radius: 20px 5px 5px 20px;
+}
+
+.camera {
+    position: absolute;
+    border-radius: 100% 100% 100% 100%;
+    background: blue;
+    width: 50px;
+    height: 50px;
+    top: 2%;
+    left: 5%;
 }
 
 .screen {
-    position: relative;
-    top: 200px;
-    width: 300px;
-    height: 200px
-    ;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 80%;
+    height: 30%;
     background: green;
 }
